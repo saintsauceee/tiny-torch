@@ -1,2 +1,2 @@
-# tiny-torch
-ML Library Written in C
+# Tiny Torch
+ML Library written in C
