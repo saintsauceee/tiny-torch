@@ -54,7 +54,7 @@ void tensor_free(Tensor *t)
 void tensor_print(const Tensor *t)
 {
     printf("Tensor Shape: (");
-    for (int i = 0; i < t->shape; i++)
+    for (int i = 0; i < t->ndim; i++)
     {
         printf("%lld", (long long)t->shape[i]);
         if (i < t->ndim - 1)
